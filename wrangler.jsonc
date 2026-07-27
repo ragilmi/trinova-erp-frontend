@@ -1,0 +1,15 @@
+{
+  // Wrangler v4 configuration for @opennextjs/cloudflare
+  // https://opennext.js.org/cloudflare/get-started
+  "name": "trinova-erp-frontend",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-07-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
